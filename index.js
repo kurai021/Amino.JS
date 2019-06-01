@@ -44,6 +44,7 @@ module.exports = {
     getComUsers: require('./modules/getComUsers'),
     sendAudio: require('./modules/sendAudio'),
     sendImage: require('./modules/sendImage'),
+    sendGIF: require('./modules/sendGIF'),
     sendSticker: require('./modules/sendSticker'),
     getFavoriteMembers: require('./modules/getFavoriteMembers'),
     getCheckInCommunities: require('./modules/getCheckInCommunities'),
