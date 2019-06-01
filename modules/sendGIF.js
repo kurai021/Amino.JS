@@ -4,7 +4,7 @@ var fs = require('fs'); // For reading the image file
 const { getConfig } = require('../index');
 
 /**
- * Function to send a Image to a Chat.
+ * Function to send a GIF image to a Chat.
  * @param {SecurityString} sid For authenticating with the Narvii-API.
  * @param {CommunityUUID} com The Community ID that can be Obtained by the Function getJoinedComs
  * @param {ChatUUID} uid The Chats ID that can be obtained by the function getJoinedChats
