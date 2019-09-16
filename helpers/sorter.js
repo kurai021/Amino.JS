@@ -27,6 +27,8 @@ module.exports = {
             'threadId': element.threadId,
             'memberCount': element.membersCount,
             'title': element.title,
+            'icon': element.icon,
+            'content': element.content,
             'joined': joined,
             'public': publicChat,
             'group': group,
@@ -118,5 +120,3 @@ module.exports = {
         return itemObj;
     }
 };
-
-    
